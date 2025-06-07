@@ -18,11 +18,3 @@ While training at home or at the gym, it’s common to perform pushups with poor
 ## What’s in This Project
 
 The project includes:
-
-├── main.py # Main script to run live tracking
-├── utils/ # Math + helper functions (e.g., angle calculations)
-├── model/ # Trained AI model (excluded from GitHub via .gitignore)
-├── videos/ # Sample pushup videos (excluded from GitHub)
-├── requirements.txt # All dependencies
-├── README.md # This file
-├── .gitignore # Files to exclude from GitHub
