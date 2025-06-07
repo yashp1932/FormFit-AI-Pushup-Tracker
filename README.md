@@ -8,16 +8,34 @@ FormFit is a real-time pushup form tracker that uses computer vision and a custo
 
 ## 💡 Why I Built This
 
-Bad pushup form is common and hard to spot without a coach. I wanted to automate form correction using AI and make workouts safer for everyone — from beginners to athletes.
+Bad pushup form is common and hard to spot without a coach. I wanted to automate form correction using AI and make workouts safer for everyone, from beginners to athletes.
 
 ---
 
 ## 🧠 How It Works
 
-- Tracks your body through webcam using OpenCV + MediaPipe
-- Calculates joint angles (elbow, shoulder, hip)
-- Uses a TensorFlow model trained on **1.6M+ data points** to classify form
-- Achieves **94.7% accuracy** and gives real-time feedback
+FormFit didn’t start as an AI project; it started on a **Raspberry Pi 4**, using brute-force math and logic.
+
+- I used **MediaPipe** to extract 3D body landmarks (shoulders, elbows, hips, knees).
+- Then calculated joint angles (like elbow flexion, shoulder position, hip alignment) using raw trigonometry.
+- Compared those live angles to known “good form” ranges. If the angles were off, the rep was marked as poor.
+
+It worked, but it was **limited**, slow, and didn’t scale well.
+
+So I leveled it up:
+
+- Recorded **over 700 pushups**.
+- Extracted **1.6M+ data points** from body landmarks in the videos.
+- Trained a **TensorFlow CNN** to learn patterns in joint positions, movement smoothness, and body alignment.
+- Achieved **94.7% accuracy** in form classification.
+- Switched to desktop for faster inference and real-time feedback.
+
+This transition from raw math to a trained AI model made it:
+- **Faster**
+- **More accurate**
+- **Easier to grow** (can now train on different body types, camera angles, even add new exercises in the future)
+
+
 
 ---
 
@@ -35,24 +53,23 @@ git clone https://github.com/yashp1932/FormFit-AI-Pushup-Tracker.git
 cd FormFit-AI-Pushup-Tracker
 pip install -r requirements.txt
 python main.py
+```
+---
 
 ---
 
-## 🔭 What's Next
+## 🔭 Future Ideas for the Project
 
 - 🎙️ **Live Audio Feedback** – Add speaker output during workouts to give real-time advice on form so users can self-correct mid-rep.
 - 🌐 **Web App Expansion** – Let anyone upload a pushup video and receive instant form analysis and a detailed breakdown.
 
 ---
 
-## 🤝 Let's Connect
+## 🤝 Connect
 
-📧 yashp1932@gmail.com  
+If you are interested in learning more about the project, want to help develop it further, or just have questions, feel free to reach out!
+
+📧 yash.panchal1932@gmail.com  
 🔗 [LinkedIn](https://www.linkedin.com/in/yashp1932)  
-👨‍💻 [GitHub](https://github.com/yashp1932)
 
 ---
-
-## 👋 Final Note
-
-This project was built end-to-end — collecting real data, training the model, and deploying a real-time CV+AI system. It’s not just a demo — it’s a practical solution to a real problem. Always down to connect or collaborate on meaningful tech.
