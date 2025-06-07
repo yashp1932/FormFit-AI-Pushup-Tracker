@@ -25,7 +25,7 @@ It worked, but it was **limited**, slow, and didn’t scale well.
 So we leveled it up:
 
 - Recorded **over 700 pushups**.
-- Extracted **1.6M+ data points** from body landmarks in the videos.
+- Extracted **3.6M+ data points** from body landmarks in the videos.
 - Trained a **TensorFlow CNN** to learn patterns in joint positions, movement smoothness, and body alignment.
 - Achieved **94.7% accuracy** in form classification.
 - Switched to desktop for faster inference and real-time feedback.
