@@ -3,6 +3,7 @@
 FormFit is a real-time pushup form tracker that uses computer vision and a custom-trained AI model to detect poor reps and give instant feedback — helping users train smarter and avoid injury.
 
 🎥 [Watch Demo](https://www.youtube.com/watch?v=d_77Bp3EV2Q)
+📄 [Project Overview (PDF)](./Project_Overview.pdf)
 
 ---
 
