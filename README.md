@@ -15,7 +15,7 @@ Bad pushup form is common and hard to spot without a coach. We wanted to automat
 
 ## 🧠 How It Works
 
-FormFit didn’t start as an AI project; it started on a **Raspberry Pi 4** with a simple camera, using brute-force math and logic.
+FormFit didn’t start as an AI project. It actually started on a **Raspberry Pi 4** with a simple camera, using brute-force math and logic.
 
 - We used **MediaPipe** to extract 3D body landmarks (shoulders, elbows, hips, knees).
 - Then calculated joint angles (like elbow flexion, shoulder position, hip alignment) using raw trigonometry.
