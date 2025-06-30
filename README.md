@@ -58,7 +58,6 @@ cd FormFit-AI-Pushup-Tracker
 pip install -r requirements.txt
 python main.py
 ```
----
 
 ---
 
