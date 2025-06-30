@@ -2,7 +2,11 @@
 
 ## ⚙️ Summary
 
-FormFit is a real-time pushup form tracker that uses computer vision and a custom-trained AI model to detect poor reps and give instant feedback, helping users train smarter and avoid injury.
+FormFit is a real-time AI-powered pushup form tracker that uses computer vision and a custom-trained TensorFlow CNN to detect improper reps and provide instant feedback. The system was prototyped on a Raspberry Pi 4 using MediaPipe for body landmark detection, then scaled to desktop hardware to enable faster, more accurate inference and better scalability.
+
+**Tech Stack:** Python · OpenCV · MediaPipe · TensorFlow · NumPy · Raspberry Pi 4  
+
+**Key Features:** Real-time pushup form analysis · AI-driven accuracy · Custom CNN model · Scalable architecture for multiple users and exercises · Instant feedback for safer training.
 
 ---
 ## 🔍 Explore
