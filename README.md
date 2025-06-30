@@ -2,7 +2,7 @@
 
 ## ⚙️ Summary
 
-FormFit is a real-time AI-powered pushup form tracker that uses computer vision and a custom-trained TensorFlow CNN to detect improper reps and provide instant feedback. The system was prototyped on a Raspberry Pi 4 using MediaPipe for body landmark detection, then scaled to desktop hardware to enable faster, more accurate inference and better scalability.
+FormFit is a **real-time AI-powered pushup form tracker** that uses computer vision and a **custom-trained TensorFlow CNN** to detect improper reps and provide instant feedback. The system was prototyped on a Raspberry Pi 4 using MediaPipe for body landmark detection, then scaled to desktop hardware to enable faster, more accurate inference and better scalability.
 
 **Tech Stack:** Python · OpenCV · MediaPipe · TensorFlow · NumPy · Raspberry Pi 4  
 
